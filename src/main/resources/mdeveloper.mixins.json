@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.hacker.mdeveloper.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "MDeveloper.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+    "KeyboardHandlerMixin",
+    "MouseHandlerMixin",
+    "RenderSystemMixin",
+    "ScreenManagerMixin",
+    "WindowMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
